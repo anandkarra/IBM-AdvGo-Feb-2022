@@ -17,7 +17,7 @@ func main() {
 	*/
 
 	//initialize the runner with a timeout
-	timeout := 15 * time.Second
+	timeout := 10 * time.Second
 	r := runner.New(timeout)
 
 	//Add multiple tasks to the runner
